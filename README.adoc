@@ -1,0 +1,37 @@
+# **Copy Clone - A laravel nova package for cloning any resource data.**
+
+## By ->**tanvirofficials**
+
+### Install Copy-clone package to your nova project
+----
+$ composer require tanvirofficials/copy-clone
+----
+
+
+## Usage  
+----
+use Tanvirofficials\CopyClone\CopyClone;
+----
+
+----
+CopyClone::make()
+    ->withMeta([
+        'resource' => 'posts', // resource url
+        'model' => 'App\Post', // model path
+        'id' => $this->id, // id of record
+        'relations' => ['tags', 'comments'], // an array of any relations to load (nullable).
+        'except' => ['status'], // an array of fields to not replicate (nullable).
+        'override' => ['status' => 'published'] // an array of fields and values which will be set on the modal after Cloning(nullable).
+    ]),
+----
+
+
+*_->This package only available in Resource Detail page._*
+
+
+
+
+
+
+
+
