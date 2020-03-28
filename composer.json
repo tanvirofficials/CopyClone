@@ -1,11 +1,24 @@
 {
     "name": "tanvirofficials/copy-clone",
-    "description": "A Laravel Nova resource tool.",
+    "type": "library",
+    "description": "A Laravel Nova Package for Copy or clone a resource Data.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "copy",
+        "clone",
+        "copy-clone",
+        "duplicate"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanvir Islam",
+            "email": "code.tanvirofficials@gmail.com",
+            "homepage": "http://seld.be",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=7.1.0"
     },
