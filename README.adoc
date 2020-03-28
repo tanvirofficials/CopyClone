@@ -29,9 +29,8 @@ CopyClone::make()
 *_->This package only available in Resource Detail page._*
 
 
+image::https://live.staticflickr.com/65535/49708545392_ad103b785f_k.jpg[Demo image 1]
 
-
-
-
+image::https://live.staticflickr.com/65535/49708545322_d5c6d7a5e3_k.jpg[Demo Image 2]
 
 
