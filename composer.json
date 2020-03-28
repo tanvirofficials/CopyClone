@@ -12,14 +12,6 @@
         "duplicate"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Tanvir Islam",
-            "email": "code.tanvirofficials@gmail.com",
-            "homepage": "http://seld.be",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": ">=7.1.0"
     },
