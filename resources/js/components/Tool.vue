@@ -22,7 +22,7 @@
 				<span>
 					<span @click="proceed" class="nova-button nova-button-post cursor-pointer dim inline-block text-primary font-bold no-underline nova-button-post cursor-pointer dim inline-block text-primary font-bold no-underline"
 						style="min-width: 80px;">
-						{{ this.panel.fields[0].confirm_button_text ? this.panel.fields[0].confirm_button_text : 'Copy\Clone'}}
+						{{ this.panel.fields[0].confirm_button_text ? this.panel.fields[0].confirm_button_text : 'Copy\\Clone'}}
 					</span>
 				</span>
 			</div>

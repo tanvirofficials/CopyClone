@@ -2328,7 +2328,7 @@ var render = function() {
                               _vm._s(
                                 this.panel.fields[0].confirm_button_text
                                   ? this.panel.fields[0].confirm_button_text
-                                  : "CopyClone"
+                                  : "Copy\\Clone"
                               ) +
                               "\n\t\t\t\t\t"
                           )
