@@ -2208,14 +2208,7 @@ var render = function() {
       _c(
         "button",
         {
-          staticStyle: {
-            margin: "auto auto",
-            background: "#4099DE",
-            padding: "5px 12px",
-            color: "#fff",
-            "font-weight": "bold",
-            "border-radius": "10px"
-          },
+          staticClass: "btn btn-default btn-icon bg-primary text-white",
           on: { click: _vm.fire }
         },
         [
@@ -2226,8 +2219,8 @@ var render = function() {
               attrs: {
                 xmlns: "http://www.w3.org/2000/svg",
                 viewBox: "0 0 24 24",
-                width: "30",
-                height: "30"
+                width: "22",
+                height: "22"
               }
             },
             [
