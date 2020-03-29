@@ -2271,7 +2271,7 @@ var render = function() {
                       _vm._s(
                         this.panel.fields[0].body
                           ? this.panel.fields[0].body
-                          : "Arre Your Sure ?"
+                          : "Are you Sure ?"
                       )
                     )
                   ])
