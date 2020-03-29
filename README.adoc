@@ -8,7 +8,7 @@ $ composer require tanvirofficials/copy-clone
 ----
 
 
-## Usage  
+## Usage
 ----
 use Tanvirofficials\CopyClone\CopyClone;
 ----
@@ -26,11 +26,33 @@ CopyClone::make()
 ----
 
 
-*_->This package only available in Resource Detail page._*
+
 
 
 image::https://live.staticflickr.com/65535/49708545392_ad103b785f_k.jpg[Demo image 1]
 
-image::https://live.staticflickr.com/65535/49708545322_d5c6d7a5e3_k.jpg[Demo Image 2]
+### You can customize your own dialogue box. By Default ->
 
 
+## Customization of confirm dialogue box .
+
+*_->Use title,body,confirm_button_text and cancle_button_text meta for customization_*
+
+image::https://live.staticflickr.com/65535/49711939342_756c8d63ac_k.jpg[Demo image 2]
+
+----
+CopyClone::make()
+    ->withMeta([
+           .... include other metas .... ,
+
+           'title' => 'Custom Title',  // by default 'title' => 'Confirmation'
+           'body' => 'Custom Body',   // by default 'body' => 'Are you sure ?'
+           'confirm_button_text' => 'Custom Confirm Button' ,   // by default 'confirm_button_text' => 'Copy\Clone'
+           'cancle_button_text' => 'Custom Cancle Button'   // by default 'cancle_button_text'  => 'Cancle'
+    ]),
+----
+
+
+image::https://live.staticflickr.com/65535/49711922942_0d73f97285_k.jpg[Demo image 3]
+
+*_->This package only available in Resource Detail page._*
