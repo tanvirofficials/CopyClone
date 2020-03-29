@@ -12,17 +12,17 @@
 	<modal class="bg-none" v-if='showBox'>
 		<div class="bg-white rounded-lg shadow-lg overflow-hidden" style="width: 460px;">
 			<div class="p-8 text-left">
-				<h2 class="mb-6 text-90 font-normal text-xl">Confirmation</h2>
-				<p class="text-80 leading-normal">Arre Your Sure ?</p>
+				<h2 class="mb-6 text-90 font-normal text-xl">{{ this.panel.fields[0].title ? this.panel.fields[0].title : 'Confirmation'}}</h2>
+				<p class="text-80 leading-normal">{{ this.panel.fields[0].body ? this.panel.fields[0].body : 'Arre Your Sure ?'}}</p>
 			</div>
 			<div class="border-t border-50 px-6 py-3 ml-auto flex items-center" style="min-height: 70px; flex-direction: row-reverse;">
 				<a @click="showBox=false" class="cursor-pointer btn text-80 font-normal px-3 mr-3 btn-link" style="order: 2;">
-					Cancel
+					{{ this.panel.fields[0].cancle_button_text ? this.panel.fields[0].cancle_button_text : 'Cancle' }}
 				</a>
 				<span>
 					<span @click="proceed" class="nova-button nova-button-post cursor-pointer dim inline-block text-primary font-bold no-underline nova-button-post cursor-pointer dim inline-block text-primary font-bold no-underline"
 						style="min-width: 80px;">
-						Copy\Clone
+						{{ this.panel.fields[0].confirm_button_text ? this.panel.fields[0].confirm_button_text : 'Copy\Clone'}}
 					</span>
 				</span>
 			</div>
