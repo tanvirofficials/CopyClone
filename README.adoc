@@ -26,9 +26,6 @@ CopyClone::make()
 ----
 
 
-
-
-
 image::https://live.staticflickr.com/65535/49708545392_ad103b785f_k.jpg[Demo image 1]
 
 ### You can customize your own dialogue box. By Default ->
